@@ -1,1 +1,1 @@
-<p>I am "<?php echo __FILE__; ?>".</p>
+<div style="padding:10px; background-color:#000; color:#FFF;">I am included from "<?php echo __FILE__; ?>".</div>
