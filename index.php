@@ -22,7 +22,7 @@ setTimeout(goSSL, 3000);
 
 function goSSL()
 {
-	window.location.href = 'https://dev60/index.php';
+	window.location.href = 'https://<?php echo $_SERVER['HTTP_HOST']; ?><?php echo $_SERVER['REQUEST_URI']; ?>';
 }
 </script>
 <?php } ?>
