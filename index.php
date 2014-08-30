@@ -26,5 +26,7 @@ function goSSL()
 }
 </script>
 <?php } ?>
+<hr />
+<p><em>&copy;<?php echo date('Y', strtotime('+2 years')); ?></em></p>
 </body>
 </html>
