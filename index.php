@@ -11,9 +11,12 @@ echo (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] == 'on') ? "YAY! SSL!" : "NO
 echo "\n\n";
 
 ?></pre>
-
+<hr />
+<?php 
+	if(file_exists('newfile.php')) include 'newfile.php';
+?>
+<hr />
 <?php if(isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] == 'on') { ?>
-	<hr />
 	<pre><?php print_r($_SERVER); ?></pre>
 <?php } else { ?>
 <p>Changing to SSL in 3 seconds...</p>
