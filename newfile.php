@@ -1,1 +1,1 @@
-<p>I am <?php echo $_SERVER['SCRIPT_NAME']; ?>.</p>
+<p>I am "<?php echo __FILE__; ?>".</p>
